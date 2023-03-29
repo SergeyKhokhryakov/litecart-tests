@@ -569,71 +569,6 @@
       ],
       "value": ""
     }, {
-      "id": "33d9e9bf-022f-45d0-abf7-5097aceaf597",
-      "comment": "",
-      "command": "click",
-      "target": "name=quantity",
-      "targets": [
-        ["name=quantity", "name"],
-        ["css=.quantity > input", "css:finder"],
-        ["xpath=//input[@name='quantity']", "xpath:attributes"],
-        ["xpath=//div[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/form/table/tbody/tr/td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "13ae3568-a95c-4e46-a7d9-5fc7f0442657",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "name=quantity",
-      "targets": [
-        ["name=quantity", "name"],
-        ["css=.quantity > input", "css:finder"],
-        ["xpath=//input[@name='quantity']", "xpath:attributes"],
-        ["xpath=//div[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/form/table/tbody/tr/td/input", "xpath:position"]
-      ],
-      "value": "37,17.5"
-    }, {
-      "id": "1bbed5a6-7a90-4c2d-ac83-9573a11e940e",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "name=quantity",
-      "targets": [
-        ["name=quantity", "name"],
-        ["css=.quantity > input", "css:finder"],
-        ["xpath=//input[@name='quantity']", "xpath:attributes"],
-        ["xpath=//div[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/form/table/tbody/tr/td/input", "xpath:position"]
-      ],
-      "value": "37,17.5"
-    }, {
-      "id": "15e06e16-4db9-459c-92ee-5b47c4a4e54b",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "name=quantity",
-      "targets": [
-        ["name=quantity", "name"],
-        ["css=.quantity > input", "css:finder"],
-        ["xpath=//input[@name='quantity']", "xpath:attributes"],
-        ["xpath=//div[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/form/table/tbody/tr/td/input", "xpath:position"]
-      ],
-      "value": "37,17.5"
-    }, {
-      "id": "856286ee-5001-477b-9562-b1201641826e",
-      "comment": "",
-      "command": "click",
-      "target": "name=quantity",
-      "targets": [
-        ["name=quantity", "name"],
-        ["css=.quantity > input", "css:finder"],
-        ["xpath=//input[@name='quantity']", "xpath:attributes"],
-        ["xpath=//div[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/form/table/tbody/tr/td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "e3c82ded-b940-4121-b839-a1239a4a1a41",
       "comment": "",
       "command": "type",
@@ -714,6 +649,86 @@
       "target": "css=strong",
       "targets": [],
       "value": ""
+    }, {
+      "id": "82c9fd46-af76-4cd3-a6e8-61e207a98c4f",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [],
+      "value": "Sergey"
+    }, {
+      "id": "e8d73baa-63b6-458f-9e8b-a9e7b31f64a9",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.billing-address tr:nth-child(2) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='box-checkout-customer']/div/form/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Kachanov"
+    }, {
+      "id": "699d7f8a-5606-4bd0-bae7-1e01c8a0e95b",
+      "comment": "",
+      "command": "type",
+      "target": "name=address1",
+      "targets": [],
+      "value": "г. Тобол, ул. Терезы, д.5. кор. 1 кв.1"
+    }, {
+      "id": "0b16a849-f993-40a5-96c0-d679af4d6260",
+      "comment": "",
+      "command": "type",
+      "target": "name=postcode",
+      "targets": [
+        ["name=postcode", "name"],
+        ["css=.billing-address tr:nth-child(4) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='box-checkout-customer']/div/form/div/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "123000"
+    }, {
+      "id": "e5ede666-443e-4eef-ad58-b647ad13909b",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [],
+      "value": "Moscow"
+    }, {
+      "id": "aa78fe08-b852-487e-9994-4e3c33bce230",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=tr:nth-child(6) > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='box-checkout-customer']/div/form/div/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "123@rambler.ru"
+    }, {
+      "id": "c0d9df13-d30f-49c7-83dd-3cf8f796b953",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(6) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='box-checkout-customer']/div/form/div/table/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "+79111233211"
+    }, {
+      "id": "a35cb12e-a613-48e3-9688-d90630ec809f",
+      "comment": "",
+      "command": "select",
+      "target": "name=country_code",
+      "targets": [],
+      "value": "label=Russian Federation"
     }, {
       "id": "c8db3b73-d7e7-4ece-949f-05bcdaf667af",
       "comment": "",
