@@ -653,7 +653,7 @@
       "id": "82c9fd46-af76-4cd3-a6e8-61e207a98c4f",
       "comment": "",
       "command": "type",
-      "target": "name=lastname",
+      "target": "name=firstname",
       "targets": [],
       "value": "Sergey"
     }, {
