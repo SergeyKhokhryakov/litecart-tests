@@ -751,28 +751,11 @@
       ],
       "value": ""
     }, {
-      "id": "74f2a5d9-6123-4c1b-9f9e-1fdfc2c827b0",
+      "id": "faf8d49b-d441-4a64-91f5-94ebbb886e37",
       "comment": "",
-      "command": "click",
+      "command": "waitForText",
       "target": "css=.title",
-      "targets": [
-        ["css=.title", "css:finder"],
-        ["xpath=//div[@id='box-order-success']/h1", "xpath:idRelative"],
-        ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Your order is successfully completed!')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "80e22d9c-a4d9-4b16-834f-8afcaa2b26fd",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.title",
-      "targets": [
-        ["css=.title", "css:finder"],
-        ["xpath=//div[@id='box-order-success']/h1", "xpath:idRelative"],
-        ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Your order is successfully completed!')]", "xpath:innerText"]
-      ],
+      "targets": [],
       "value": "Your order is successfully completed!"
     }]
   }, {
