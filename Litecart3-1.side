@@ -690,26 +690,26 @@
       ],
       "value": "123000"
     }, {
-      "id": "59b08d09-6d57-4bca-9067-b0d7ea7efcc5",
-      "comment": "",
-      "command": "click",
-      "target": "name=country_code",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "85d7c9e3-5a9b-4708-a49b-056b07089291",
-      "comment": "",
-      "command": "select",
-      "target": "name=country_code",
-      "targets": [],
-      "value": "label=Russian Federation"
-    }, {
       "id": "e5ede666-443e-4eef-ad58-b647ad13909b",
       "comment": "",
       "command": "type",
       "target": "name=city",
       "targets": [],
       "value": "Moscow"
+    }, {
+      "id": "59b08d09-6d57-4bca-9067-b0d7ea7efcc5",
+      "comment": "",
+      "command": "//click",
+      "target": "name=country_code",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85d7c9e3-5a9b-4708-a49b-056b07089291",
+      "comment": "",
+      "command": "//select",
+      "target": "name=country_code",
+      "targets": [],
+      "value": "label=Russian Federation"
     }, {
       "id": "aa78fe08-b852-487e-9994-4e3c33bce230",
       "comment": "",
