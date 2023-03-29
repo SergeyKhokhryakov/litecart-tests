@@ -690,6 +690,20 @@
       ],
       "value": "123000"
     }, {
+      "id": "59b08d09-6d57-4bca-9067-b0d7ea7efcc5",
+      "comment": "",
+      "command": "click",
+      "target": "name=country_code",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85d7c9e3-5a9b-4708-a49b-056b07089291",
+      "comment": "",
+      "command": "select",
+      "target": "name=country_code",
+      "targets": [],
+      "value": "label=Russian Federation"
+    }, {
       "id": "e5ede666-443e-4eef-ad58-b647ad13909b",
       "comment": "",
       "command": "type",
@@ -722,13 +736,6 @@
         ["xpath=//tr[6]/td[2]/input", "xpath:position"]
       ],
       "value": "+79111233211"
-    }, {
-      "id": "a35cb12e-a613-48e3-9688-d90630ec809f",
-      "comment": "",
-      "command": "select",
-      "target": "name=country_code",
-      "targets": [],
-      "value": "label=Russian Federation"
     }, {
       "id": "c8db3b73-d7e7-4ece-949f-05bcdaf667af",
       "comment": "",
